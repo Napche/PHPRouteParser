@@ -1,0 +1,53 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @Napche
+Sign out
+1
+0 0 Napche/azure-vm-client
+ Code  Issues 0  Pull requests 0  Wiki  Insights  Settings
+azure-vm-client/composer.json
+51507b3  on Jan 3
+@Napche Napche Code formatting && adding comments
+    
+36 lines (31 sloc)  792 Bytes
+{
+  "name"       : "napche/azure-vm-client",
+  "type"       : "library",
+  "description": "Azure Virtual Machines REST API PHP library",
+  "keywords"   : ["Azure", "API", "Cloud Hosting", "SSD", "VPS", "VM"],
+  "homepage"   : "https://github.com/Napche/azure-vm-client",
+  "license"    : "MIT",
+
+  "authors": [
+    {
+      "name"    : "Dieter Vanmoortel - Napche",
+      "homepage": "https://github.com/Napche",
+      "role"    : "Developer"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/Napche/PHPRouteParser/issues",
+    "source": "https://github.com/Napche/PHPRouteParser"
+  },
+
+  "require": {
+    "php": ">=7.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "PHPRouteParser\\": "src/"
+    }
+  },
+
+  "config": {
+    "preferred-install": "dist"
+  }
+}
+
