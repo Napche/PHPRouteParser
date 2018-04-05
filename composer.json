@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @Napche
-Sign out
-1
-0 0 Napche/azure-vm-client
- Code  Issues 0  Pull requests 0  Wiki  Insights  Settings
-azure-vm-client/composer.json
-51507b3  on Jan 3
-@Napche Napche Code formatting && adding comments
-    
-36 lines (31 sloc)  792 Bytes
 {
   "name"       : "napche/azure-vm-client",
   "type"       : "library",
