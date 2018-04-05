@@ -1,9 +1,9 @@
 {
-  "name"       : "napche/azure-vm-client",
+  "name"       : "napche/php-route-parser",
   "type"       : "library",
-  "description": "Azure Virtual Machines REST API PHP library",
-  "keywords"   : ["Azure", "API", "Cloud Hosting", "SSD", "VPS", "VM"],
-  "homepage"   : "https://github.com/Napche/azure-vm-client",
+  "description": "Parser for gpx, kml, json routes in php",
+  "keywords"   : ["PHP", "Routes", "GPX", "JSON"],
+  "homepage"   : "https://github.com/Napche/PHPRouteParser",
   "license"    : "MIT",
 
   "authors": [
