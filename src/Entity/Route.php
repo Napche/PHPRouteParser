@@ -8,20 +8,21 @@ class Route
 {
 
     const REDUCTION_TOLERANCE = 0.50;
+
     /**
      * @var array
      */
-    private $points;
+    public $points;
 
     /**
      * @var float
      */
-    private $elevationGain;
+    public $elevationGain;
 
     /**
      * @var float
      */
-    private $distance;
+    public $distance;
 
     /**
      * Route constructor.
@@ -97,8 +98,8 @@ class Route
             }
             $start = $point;
         }
-        $this->setDistance($distance);
-        $this->setElevationGain($elevationGain);
+        $this->setDistance(round($distance));
+        $this->setElevationGain(round($elevationGain));
     }
 
 

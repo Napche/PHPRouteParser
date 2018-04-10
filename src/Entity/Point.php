@@ -8,15 +8,15 @@ class Point
     /**
      * @var float
      */
-    private $latitude;
+    public $latitude;
     /**
      * @var float
      */
-    private $longitude;
+    public $longitude;
     /**
      * @var float
      */
-    private $elevation;
+    public $elevation;
 
     /**
      * @return float
